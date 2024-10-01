@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="keywords" content="captans boating poovar,poovar boating tourism,poovar cruise,backwater cruise,poovar backwater,poovar boating, poovar backwater boating, poovar island boating, poovar beach, poovar boating rate, poovar boating package, backwater cruise in kerala,poovar boat cruises,poovar boat trips,backwater cruise in Poovar,backwater tourism,poovar photos, poovar images ">
+    <title>CAPTANS BOATING POOVAR | Poovar online booking| DIRECT CONTACT 80% OFF</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <!-- fevicon -->
+    <link rel="shortcut icon" href="./img/fevicon/Logo Shapes 8.png" type="image/x-icon">
+</head>
+
+<body>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Customize scrollbar track */
+
+        ::-webkit-scrollbar {
+            width: 4px;
+            /* Set the scrollbar width */
+        }
+
+        /* Customize scrollbar thumb (the draggable part) */
+
+        ::-webkit-scrollbar-thumb {
+            border-radius: 10px;
+            /* Set the thumb border radius */
+            background-color: #2272b3;
+        }
+
+        /* Customize scrollbar track on hover */
+
+        ::-webkit-scrollbar-thumb:hover {
+            background-color: #0056b3;
+            /* Change thumb color on hover */
+        }
+
+        /* navbar */
+
+        .navbar {
+            position: fixed;
+            width: 100%;
+            background-color: #295F4E;
+        }
+
+        .navbar a {
+            float: left;
+            font-size: 22px;
+            color: #ffffff;
+            text-align: center;
+            padding: 14px 36px;
+            text-decoration: none;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .nav-a {
+            text-shadow: #000000 0px 2px 5px;
+        }
+
+        .icon {
+            display: none;
+        }
+
+        /*== navbar end ==*/
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0f4c5c;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+            justify-content: space-evenly;
+            margin-bottom: 30px;
+        }
+
+        .heading-1 {
+            text-align: center;
+            padding-top: 6rem;
+            padding-bottom: 20px;
+        }
+
+        .thumbnail {
+            width: 420px;
+            max-height: 300px;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        .thumbnail:hover {
+            transform: scale(1.1);
+        }
+
+        .lightbox {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+        }
+
+        .lightbox-image {
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        .close {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            font-size: 50px;
+            color: white;
+            cursor: pointer;
+        }
+
+        .navigation {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transform: translateY(-50%);
+        }
+
+        .prev,
+        .next {
+            background-color: rgba(0, 0, 0, 0.5);
+            border: none;
+            color: white;
+            font-size: 30px;
+            cursor: pointer;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        /* footer  */
+
+        .footer {
+            background-color: #256D85;
+            text-align: center;
+        }
+
+        .footer .share a {
+            margin: 0.5rem;
+            height: 4rem;
+            width: 4rem;
+            line-height: 4.5rem;
+            border-radius: 100%;
+            font-size: 4.5rem;
+        }
+
+        .footer .credit {
+            margin-top: 0.5rem;
+            padding-top: 2.5rem;
+            padding: 1rem;
+            border-top: .1rem solid var(--light-white);
+            font-size: 1rem;
+            color: #fff;
+        }
+
+        .footer .credit span {
+            color: var(--green);
+        }
+
+        .x-icon {
+            width: 2rem;
+            height: 2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .credit-z {
+            font-size: 1.2rem;
+        }
+
+        .institute-name {
+            color: #090580;
+            font-size: 2rem;
+            font-weight: bolder;
+            margin-bottom: 0.5rem;
+            letter-spacing: 2px;
+        }
+
+        .number-color {
+            color: #090580;
+            margin-left: 1rem;
+        }
+
+        .coder {
+            color: #00ff8c63;
+        }
+
+        /* contact us btn  */
+
+        .btn {
+            background-color: #24252A;
+            display: inline-block;
+            border-radius: 5rem;
+            cursor: pointer;
+            color: var(--green);
+            margin-top: 5rem;
+            font-size: 2.5rem;
+            padding: 1rem 3rem;
+            font-family: 'Bowlby One';
+            margin-bottom: 2rem;
+        }
+
+        .btn:hover {
+            background-color: var(--green);
+            color: black;
+        }
+
+        /* footer end */
+
+        @media screen and (max-width: 720px) {
+            .thumbnail {
+                width: 160px;
+                cursor: pointer;
+                transition: transform 0.2s;
+            }
+        }
+
+        /* Responsive  */
+
+        @media screen and (max-width: 970px) {
+            .navbar a:not(:first-child) {
+                display: none;
+                font-size: 16px;
+            }
+            html {
+                font-size: 14px;
+            }
+            .navbar a.icon {
+                float: left;
+                display: block;
+                color: #fff;
+            }
+        }
+
+        @media screen and (max-width: 970px) {
+            .navbar.responsive {
+                position: fixed;
+                height: auto;
+                width: 100%;
+            }
+            .navbar.responsive a.icon {
+                position: absolute;
+                left: 0px;
+                padding-left: 25px;
+                top: 0;
+            }
+            .navbar.responsive a {
+                float: none;
+                display: block;
+                text-align: center;
+            }
+        }
+
+        /*== Responsive end ==*/
+    </style>
+
+    <div class="navbar">
+
+        <!-- This is the toggle button for the navigation bar -->
+        <!-- Clicking on it will show/hide the links -->
+        <a href="javascript:void(0);" class="icon" onclick="toggleNavbar()">&#9776;</a>
+        <a class="nav-a" href="/index.html" onclick="toggleNavbar()">Home</a>
+        <a class="nav-a" href="/index.html" onclick="toggleNavbar()">About</a>
+        <a class="nav-a" href="/index.html" onclick="toggleNavbar()">Service</a>
+        <a class="nav-a" href="/index.html" onclick="toggleNavbar()">Packages</a>
+        <a class="nav-a" href="/index.html" onclick="toggleNavbar()">Booking</a>
+        <a class="nav-a" href="tel:+91 7034063242" class="nav-call" onclick="toggleNavbar()" target="_blank">Contact </a>
+
+    </div>
+
+
+    <div class="hedd">
+        <h2 class="heading-1">Gallary</h2>
+
+    </div>
+    <div class="gallery">
+        <img src="./img/gallary/img-01 (11).jpeg" alt="Image 1" class="thumbnail">
+        <img src="./img/gallary/2017102200010101.jpg" alt="Image 2" class="thumbnail">
+        <img src="./img/gallary/poovarimgg.jpg" alt="Image 3" class="thumbnail">
+        <img src="./img/gallary/images (10).jpeg.jpg" alt="Image 4" class="thumbnail">
+        <img src="./img/gallary/images (14).jpeg.jpg" alt="Image 5" class="thumbnail">
+        <img src="./img/gallary/img-01 (18).jpeg" alt="Image 6" class="thumbnail">
+        <img src="./img/gallary/images (7).jpeg.jpg" alt="Image 7" class="thumbnail">
+        <img src="./img/gallary/img-01 (11).jpeg" alt="Image 8" class="thumbnail">
+        <img src="./img/gallary/img-01 (13).jpeg" alt="Image 9" class="thumbnail">
+        <img src="./img/gallary/img-01 (16).jpeg" alt="Image 10" class="thumbnail">
+        <img src="./img/gallary/img-01 (22).jpeg" alt="Image 11" class="thumbnail">
+        <img src="./img/gallary/img-01 (8).jpeg" alt="Image 12" class="thumbnail">
+        <img src="./img/gallary/img-01 (9).jpeg" alt="Image 13" class="thumbnail">
+        <img src="./img/gallary/IMG20240702132930.jpg" alt="Image 14" class="thumbnail">
+        <img src="./img/gallary/IMG20240702134557.jpg" alt="Image 15" class="thumbnail">
+        <img src="./img/gallary/lsmpx6xbsvkuv334r14n1sydh3wm_PVR.jpg" alt="Image 16" class="thumbnail">
+        <img src="./img/gallary/photo_2024-04-24_23-07-17.jpg" alt="Image 17" class="thumbnail">
+        <img src="./img/gallary/poovar-backwaters-1.jpg" alt="Image 18" class="thumbnail">
+        <img src="./img/gallary/sreekrishna-s-shikara.jpg" alt="Image 19" class="thumbnail">
+        <img src="./img/gallary/WhatsApp Image 2021-09-09 at 8.36.10 PM.jpeg.jpg" alt="Image 20" class="thumbnail">
+        <img src="./img/gallary/WhatsApp Image 2021-10-26 at 6.50.57 PM.jpeg" alt="Image 21" class="thumbnail">
+
+        <img src="./img/gallary/20160916-072404-largejpg.jpg" alt="Image 22" class="thumbnail">
+        <img src="./img/gallary/photo1jpg.jpg" alt="Image 23" class="thumbnail">
+        <img src="./img/gallary/poovar-island (2).jpg" alt="Image 24" class="thumbnail">
+        <img src="./img/gallary/poovar-island (3).jpg" alt="Image 25" class="thumbnail">
+        <img src="./img/gallary/poovar-island (4).jpg" alt="Image 26" class="thumbnail">
+        <img src="./img/gallary/poovar-island (5).jpg" alt="Image 27" class="thumbnail">
+        <img src="./img/gallary/photo2jpg.jpg" alt="Image 28" class="thumbnail">
+        <img src="./img/gallary/photo4jpg.jpg" alt="Image 29" class="thumbnail">
+        <img src="./img/gallary/poovar-island (7).jpg" alt="Image 30" class="thumbnail">
+        <img src="./img/gallary/poovar-island.jpg" alt="Image 31" class="thumbnail">
+        <img src="./img/gallary/poovar-11.jpg" alt="Image 32" class="thumbnail">
+        <!-- Add more images as needed -->
+    </div>
+
+    <div class="lightbox" id="lightbox">
+        <span class="close" id="close">&times;</span>
+        <img class="lightbox-image" id="lightbox-image">
+        <div class="navigation">
+            <button class="prev" id="prev">&#10094;</button>
+            <button class="next" id="next">&#10095;</button>
+        </div>
+    </div>
+
+
+    <!-- footer  -->
+
+    <footer class="footer">
+
+        <section>
+            <div class="institute-name">Poovar Boating Service</div>
+
+            <div class="share">
+                <a class="dj" href="https://instagram.com/"><img class="x-icon"
+                src="./img/icon/pngwing.com (1).png" alt="Instagram"></a>
+                <a class="dj" href="https://wa.me/7034063242"><img class="x-icon"
+                src="./img/icon/whatsapp-round-color-icon.png"
+                alt="whatsapp"></a>
+                <a class="dj" href="https://t.me/"><img class="x-icon"
+                src="./img/icon/telegram-icon.png" alt="Telegram"></a>
+                <a class="dj" href="https://www.youtube.com/"><img class="x-icon"
+                src="./img/icon/pngwing.com (2).png" alt="Youtube"></a>
+                <a class="dj" href="https://www.facebook.com/"><img class="x-icon"
+                src="./img/icon/pngwing.com.png" alt="Facebook"></a>
+
+            </div>
+            <div class="credit-z">Near Attupuram, Poovar Check Post, Kalivikavila Road, Thiruvanathapuram, Kerala. PIN Code : 695506| Call us :<span class="number-color">+91 7034063242</span></div>
+
+            <div class="credit">&copy; copyright @ 2024 by <span><a class="coder"
+                href="https://instagram.com/maxcoder_01?igshid=MTY3d3A2YWRxanpydQ==">@maxcoder_01</a></span> | all rights reserved!</div>
+
+        </section>
+
+    </footer>
+
+    <!-- footer section ends  -->
+
+
+
+    <script>
+        function toggleNavbar() {
+            // Get the navigation bar element from the HTML document
+            var navbarElement = document.querySelector(".navbar");
+
+            // Check if the navigation bar currently has the class "navbar"
+            if (navbarElement.className === "navbar") {
+                // If it does, add the class "responsive" to make the navigation bar more responsive
+                navbarElement.className += " responsive";
+            } else {
+                // If it doesn't, set the class of the navigation bar to "navbar", which hides the navigation bar.
+                navbarElement.className = "navbar";
+            }
+        }
+
+
+
+        const gallery = document.querySelectorAll('.thumbnail');
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImage = document.getElementById('lightbox-image');
+        const closeBtn = document.getElementById('close');
+        const prevBtn = document.getElementById('prev');
+        const nextBtn = document.getElementById('next');
+
+        let currentIndex = 0;
+
+        function showLightbox(index) {
+            lightbox.style.display = 'flex';
+            lightboxImage.src = gallery[index].src;
+            currentIndex = index;
+        }
+
+        function hideLightbox() {
+            lightbox.style.display = 'none';
+        }
+
+        function showPrevImage() {
+            currentIndex = (currentIndex === 0) ? gallery.length - 1 : currentIndex - 1;
+            lightboxImage.src = gallery[currentIndex].src;
+        }
+
+        function showNextImage() {
+            currentIndex = (currentIndex === gallery.length - 1) ? 0 : currentIndex + 1;
+            lightboxImage.src = gallery[currentIndex].src;
+        }
+
+        gallery.forEach((image, index) => {
+            image.addEventListener('click', () => {
+                showLightbox(index);
+            });
+        });
+
+        closeBtn.addEventListener('click', hideLightbox);
+        prevBtn.addEventListener('click', showPrevImage);
+        nextBtn.addEventListener('click', showNextImage);
+
+        lightbox.addEventListener('click', (event) => {
+            if (event.target === lightbox) {
+                hideLightbox();
+            }
+        });
+    </script>
+
+    <!-- <script src="script.js"></script> -->
+</body>
+
+</html>
